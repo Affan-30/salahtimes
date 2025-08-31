@@ -232,7 +232,7 @@ export default function PrayerTimes() {
   const timingsList = ["Fajr", "Sunrise", "Dhuhr", "Asr", "Maghrib", "Sunset", "Isha"];
 
   const prayerNamesArabic = {
-    Fajr:"فجر",
+    Fajr: "فجر",
     Sunrise: "طلوع آفتاب",
     Dhuhr: "ظهر",
     Asr: "عصر",
@@ -243,12 +243,12 @@ export default function PrayerTimes() {
 
   return (
     <div
-  className="relative min-h-screen flex flex-col items-center justify-center 
+      className="relative min-h-screen flex flex-col items-center justify-center 
   bg-[url('https://i.pinimg.com/1200x/e2/25/91/e2259162af8af621699dca00f284f3fd.jpg')] 
   sm:bg-[url('https://i.pinimg.com/1200x/44/21/0c/44210c902e9e2ddf263265ae5653adf3.jpg')] 
   bg-center bg-cover bg-fixed sm:bg-center p-6"
->
-      
+    >
+
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
 
@@ -265,9 +265,10 @@ export default function PrayerTimes() {
             value={city}
             onChange={(e) => setCity(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && fetchPrayerTimes()}
-            className="border border-white rounded-xl px-4 py-2 shadow-md 
-            placeholder-gray-300 text-white bg-transparent 
-            focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-40 sm:w-60 md:w-72
+      border border-white rounded-xl px-4 py-2 shadow-md 
+      placeholder-gray-300 text-white bg-transparent 
+      focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
           <input
             type="text"
@@ -275,18 +276,20 @@ export default function PrayerTimes() {
             value={country}
             onChange={(e) => setCountry(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && fetchPrayerTimes()}
-            className="border border-white rounded-xl px-4 py-2 shadow-md 
-            placeholder-gray-300 text-white bg-transparent 
-            focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-40 sm:w-60 md:w-72
+      border border-white rounded-xl px-4 py-2 shadow-md 
+      placeholder-gray-300 text-white bg-transparent 
+      focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
           <button
             onClick={fetchPrayerTimes}
             className="bg-purple-700/80 text-white px-5 py-2 rounded-xl shadow-md 
-            hover:bg-purple-800 transition"
+      hover:bg-purple-800 transition"
           >
             Get Times
           </button>
         </div>
+
 
         {/* Loader */}
         {loading && (
@@ -316,7 +319,7 @@ export default function PrayerTimes() {
                   bg-white/10 backdrop-blur-md shadow-lg hover:scale-105 transition transform"
                 >
                   <div className="relative z-10 text-center">
-                    
+
                     <h3 className="text-2xl font-bold">{prayerNamesArabic[name]}</h3>
                     <h3 className="text-2xl font-bold">{name}</h3>
                     <p className="text-3xl font-semibold">{data.timings[name]}</p>
