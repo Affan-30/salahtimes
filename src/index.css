@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+body{
+    font-family: 'Amiri', Georgia, 'Times New Roman', Times, serif;
+}
