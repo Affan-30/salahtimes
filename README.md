@@ -1,12 +1,42 @@
-# React + Vite
+# 🕌 SalahTimes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SalahTimes** is a beautifully designed **React.js web application** that displays accurate **Islamic prayer times** for any city.  
+It combines spiritual utility with a visually calming interface, showing each Salah (prayer) time along with **Hijri date** and **location details**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+✅ **Accurate Prayer Timings** – Displays Fajr, Dhuhr, Asr, Maghrib, and Isha with precision.  
+✅ **Sunrise & Sunset Information** – Includes daily sunrise and sunset timings.  
+✅ **Hijri Calendar Support** – Displays the current Islamic (Hijri) date.  
+✅ **Dynamic Background** – Beautiful background images reflecting prayer ambiance.  
+✅ **Multi-language Display** – Shows prayer names in both **Arabic and English**.  
+✅ **Responsive Design** – Optimized for desktop, tablet, and mobile screens.  
+✅ **Clean & Elegant UI** – Blurred glass cards with smooth transitions for a premium look.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Tech Stack
+
+- **React.js** (Frontend Framework)  
+- **JavaScript (ES6+)**  
+- **HTML5 & CSS3**  
+- **Aladhan Prayer Times API** (for accurate Salah times)  
+- **GitHub Pages** (for hosting and deployment)  
+
+---
+
+## 🌅 UI Highlights
+
+- Modern **glassmorphism** design for time cards.  
+- Dual-language prayer labels (Arabic + English).  
+- Centralized **location and Hijri date** display.  
+- Soft gradient and sunset-themed background.  
+- Simple layout ensuring focus on key timings.  
+
+---
+
+## 🚀 Live Demo
+
+👉 [**View SalahTimes Live**](https://affan-30.github.io/salahtimes/)  
